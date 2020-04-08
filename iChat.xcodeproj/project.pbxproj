@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E6243E12D0007EB251 /* ButtonFormView.swift */; };
+		849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E8243E18E9007EB251 /* StackView + Extension.swift */; };
 		849DBE05243B802D000DF7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE04243B802D000DF7A6 /* AppDelegate.swift */; };
 		849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE06243B802D000DF7A6 /* SceneDelegate.swift */; };
 		849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE08243B802D000DF7A6 /* AuthViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		849129E6243E12D0007EB251 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		849129E8243E18E9007EB251 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		849DBE01243B802D000DF7A6 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849DBE04243B802D000DF7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849DBE06243B802D000DF7A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		849129E4243E0DE3007EB251 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				849DBE1E243CD559000DF7A6 /* UILabel + Extension.swift */,
+				849DBE1C243CD298000DF7A6 /* UIColor + Extension.swift */,
+				849129E8243E18E9007EB251 /* StackView + Extension.swift */,
+				84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */,
+				849DBE1A243CD145000DF7A6 /* UIFont + Extension.swift */,
+				849DBE18243CCD4E000DF7A6 /* UIButton + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		849129E5243E0DF3007EB251 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				849129E6243E12D0007EB251 /* ButtonFormView.swift */,
+				849129E4243E0DE3007EB251 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		849DBDF8243B802D000DF7A6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +93,7 @@
 				849DBE04243B802D000DF7A6 /* AppDelegate.swift */,
 				849DBE06243B802D000DF7A6 /* SceneDelegate.swift */,
 				849DBE08243B802D000DF7A6 /* AuthViewController.swift */,
-				849DBE1E243CD559000DF7A6 /* UILabel + Extension.swift */,
-				849DBE1C243CD298000DF7A6 /* UIColor + Extension.swift */,
-				84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */,
-				849DBE1A243CD145000DF7A6 /* UIFont + Extension.swift */,
-				849DBE18243CCD4E000DF7A6 /* UIButton + Extension.swift */,
+				849129E5243E0DF3007EB251 /* Extensions */,
 				849DBE0D243B8033000DF7A6 /* Assets.xcassets */,
 				849DBE0F243B8033000DF7A6 /* LaunchScreen.storyboard */,
 				849DBE12243B8033000DF7A6 /* Info.plist */,
@@ -152,11 +174,13 @@
 				849DBE1B243CD145000DF7A6 /* UIFont + Extension.swift in Sources */,
 				849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */,
 				849DBE1F243CD559000DF7A6 /* UILabel + Extension.swift in Sources */,
+				849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */,
 				849DBE05243B802D000DF7A6 /* AppDelegate.swift in Sources */,
 				84DAE245243CD7E4008A30B1 /* UIImageView + Extension.swift in Sources */,
 				849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */,
 				849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */,
 				849DBE19243CCD4E000DF7A6 /* UIButton + Extension.swift in Sources */,
+				849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
