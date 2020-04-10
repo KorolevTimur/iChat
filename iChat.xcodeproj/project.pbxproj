@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E6243E12D0007EB251 /* ButtonFormView.swift */; };
 		849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E8243E18E9007EB251 /* StackView + Extension.swift */; };
+		849129EB2440C053007EB251 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129EA2440C053007EB251 /* SignUpViewController.swift */; };
+		849129ED2440C4A4007EB251 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129EC2440C4A4007EB251 /* OneLineTextField.swift */; };
 		849DBE05243B802D000DF7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE04243B802D000DF7A6 /* AppDelegate.swift */; };
 		849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE06243B802D000DF7A6 /* SceneDelegate.swift */; };
 		849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE08243B802D000DF7A6 /* AuthViewController.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		849129E6243E12D0007EB251 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		849129E8243E18E9007EB251 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		849129EA2440C053007EB251 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		849129EC2440C4A4007EB251 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		849DBE01243B802D000DF7A6 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849DBE04243B802D000DF7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849DBE06243B802D000DF7A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 		849129E5243E0DF3007EB251 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				849129EC2440C4A4007EB251 /* OneLineTextField.swift */,
 				849129E6243E12D0007EB251 /* ButtonFormView.swift */,
 				849129E4243E0DE3007EB251 /* UIKit */,
 			);
@@ -93,6 +98,7 @@
 				849DBE04243B802D000DF7A6 /* AppDelegate.swift */,
 				849DBE06243B802D000DF7A6 /* SceneDelegate.swift */,
 				849DBE08243B802D000DF7A6 /* AuthViewController.swift */,
+				849129EA2440C053007EB251 /* SignUpViewController.swift */,
 				849129E5243E0DF3007EB251 /* Extensions */,
 				849DBE0D243B8033000DF7A6 /* Assets.xcassets */,
 				849DBE0F243B8033000DF7A6 /* LaunchScreen.storyboard */,
@@ -171,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849129ED2440C4A4007EB251 /* OneLineTextField.swift in Sources */,
+				849129EB2440C053007EB251 /* SignUpViewController.swift in Sources */,
 				849DBE1B243CD145000DF7A6 /* UIFont + Extension.swift in Sources */,
 				849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */,
 				849DBE1F243CD559000DF7A6 /* UILabel + Extension.swift in Sources */,
