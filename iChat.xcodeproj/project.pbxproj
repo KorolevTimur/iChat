@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */; };
 		8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF11244DF68100EB57C3 /* AddPhotoView.swift */; };
+		8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */; };
 		84626D042444B4C000EE6169 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84626D032444B4C000EE6169 /* LoginViewController.swift */; };
 		849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E6243E12D0007EB251 /* ButtonFormView.swift */; };
 		849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E8243E18E9007EB251 /* StackView + Extension.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		8421CF11244DF68100EB57C3 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
 		84626D032444B4C000EE6169 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		849129E6243E12D0007EB251 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		849129E8243E18E9007EB251 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				849DBE1E243CD559000DF7A6 /* UILabel + Extension.swift */,
 				849DBE1C243CD298000DF7A6 /* UIColor + Extension.swift */,
 				849129E8243E18E9007EB251 /* StackView + Extension.swift */,
+				8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */,
 				84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */,
 				849DBE1A243CD145000DF7A6 /* UIFont + Extension.swift */,
 				849DBE18243CCD4E000DF7A6 /* UIButton + Extension.swift */,
@@ -196,6 +199,7 @@
 				8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */,
 				849DBE05243B802D000DF7A6 /* AppDelegate.swift in Sources */,
 				84DAE245243CD7E4008A30B1 /* UIImageView + Extension.swift in Sources */,
+				8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */,
 				849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */,
 				849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */,
 				849DBE19243CCD4E000DF7A6 /* UIButton + Extension.swift in Sources */,
