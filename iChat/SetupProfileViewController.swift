@@ -49,7 +49,9 @@ extension SetupProfileViewController {
                                                           sexSegmentedControl],
                                            axis: .vertical,
                                            spacing: 12)
+        
         goToChatsButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        
         let stackView = UIStackView(arrangedSubviews: [
             fullNameStackView,
             aboutMeStackView,
