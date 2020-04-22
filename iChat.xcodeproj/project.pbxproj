@@ -25,6 +25,9 @@
 		849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE1C243CD298000DF7A6 /* UIColor + Extension.swift */; };
 		849DBE1F243CD559000DF7A6 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DBE1E243CD559000DF7A6 /* UILabel + Extension.swift */; };
 		84DAE245243CD7E4008A30B1 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */; };
+		84E2D2C42450941C00FE0A06 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D2C32450941C00FE0A06 /* MainTabBarController.swift */; };
+		84E2D2C7245094D000FE0A06 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D2C6245094D000FE0A06 /* ListViewController.swift */; };
+		84E2D2C9245096AC00FE0A06 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		849DBE1C243CD298000DF7A6 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		849DBE1E243CD559000DF7A6 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		84E2D2C32450941C00FE0A06 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		84E2D2C6245094D000FE0A06 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,16 +113,35 @@
 			children = (
 				849DBE04243B802D000DF7A6 /* AppDelegate.swift */,
 				849DBE06243B802D000DF7A6 /* SceneDelegate.swift */,
-				849DBE08243B802D000DF7A6 /* AuthViewController.swift */,
-				849129EA2440C053007EB251 /* SignUpViewController.swift */,
-				84626D032444B4C000EE6169 /* LoginViewController.swift */,
-				8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */,
+				84E2D2C5245094AF00FE0A06 /* Controllers */,
+				84E2D2C2245093AC00FE0A06 /* SignIn&Auth */,
 				849129E5243E0DF3007EB251 /* Extensions */,
 				849DBE0D243B8033000DF7A6 /* Assets.xcassets */,
 				849DBE0F243B8033000DF7A6 /* LaunchScreen.storyboard */,
 				849DBE12243B8033000DF7A6 /* Info.plist */,
 			);
 			path = iChat;
+			sourceTree = "<group>";
+		};
+		84E2D2C2245093AC00FE0A06 /* SignIn&Auth */ = {
+			isa = PBXGroup;
+			children = (
+				849DBE08243B802D000DF7A6 /* AuthViewController.swift */,
+				849129EA2440C053007EB251 /* SignUpViewController.swift */,
+				84626D032444B4C000EE6169 /* LoginViewController.swift */,
+				8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */,
+			);
+			path = "SignIn&Auth";
+			sourceTree = "<group>";
+		};
+		84E2D2C5245094AF00FE0A06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D2C32450941C00FE0A06 /* MainTabBarController.swift */,
+				84E2D2C6245094D000FE0A06 /* ListViewController.swift */,
+				84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +219,7 @@
 				849DBE1B243CD145000DF7A6 /* UIFont + Extension.swift in Sources */,
 				849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */,
 				8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */,
+				84E2D2C9245096AC00FE0A06 /* PeopleViewController.swift in Sources */,
 				849DBE1F243CD559000DF7A6 /* UILabel + Extension.swift in Sources */,
 				849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */,
 				8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */,
@@ -203,8 +229,10 @@
 				849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */,
 				849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */,
 				849DBE19243CCD4E000DF7A6 /* UIButton + Extension.swift in Sources */,
+				84E2D2C7245094D000FE0A06 /* ListViewController.swift in Sources */,
 				84626D042444B4C000EE6169 /* LoginViewController.swift in Sources */,
 				849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */,
+				84E2D2C42450941C00FE0A06 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
