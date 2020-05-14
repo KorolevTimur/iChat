@@ -11,6 +11,7 @@
 		84194F7F246AF46E00FC8D6F /* activeChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 84194F7E246AF46E00FC8D6F /* activeChats.json */; };
 		84194F81246AF48500FC8D6F /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 84194F80246AF48500FC8D6F /* waitingChats.json */; };
 		84194F84246C3BB900FC8D6F /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */; };
+		84194F86246D94CA00FC8D6F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F85246D94CA00FC8D6F /* GradientView.swift */; };
 		8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */; };
 		8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF11244DF68100EB57C3 /* AddPhotoView.swift */; };
 		8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */; };
@@ -39,6 +40,7 @@
 		84194F7E246AF46E00FC8D6F /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = activeChats.json; path = "../../../../../Downloads/Telegram Desktop/15. урок/IChat/Extensions/UIKIt/activeChats.json"; sourceTree = "<group>"; };
 		84194F80246AF48500FC8D6F /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waitingChats.json; path = "../../../../../Downloads/Telegram Desktop/15. урок/IChat/Extensions/UIKIt/waitingChats.json"; sourceTree = "<group>"; };
 		84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
+		84194F85246D94CA00FC8D6F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		8421CF11244DF68100EB57C3 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				8421CF11244DF68100EB57C3 /* AddPhotoView.swift */,
 				849129EC2440C4A4007EB251 /* OneLineTextField.swift */,
+				84194F85246D94CA00FC8D6F /* GradientView.swift */,
 				84194F78246AEECD00FC8D6F /* Bundle-Decodable.swift */,
 				849129E6243E12D0007EB251 /* ButtonFormView.swift */,
 				849129E4243E0DE3007EB251 /* UIKit */,
@@ -238,6 +241,7 @@
 			files = (
 				849129ED2440C4A4007EB251 /* OneLineTextField.swift in Sources */,
 				849129EB2440C053007EB251 /* SignUpViewController.swift in Sources */,
+				84194F86246D94CA00FC8D6F /* GradientView.swift in Sources */,
 				849DBE1B243CD145000DF7A6 /* UIFont + Extension.swift in Sources */,
 				849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */,
 				84194F84246C3BB900FC8D6F /* ActiveChatCell.swift in Sources */,
