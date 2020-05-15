@@ -12,6 +12,8 @@
 		84194F81246AF48500FC8D6F /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 84194F80246AF48500FC8D6F /* waitingChats.json */; };
 		84194F84246C3BB900FC8D6F /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */; };
 		84194F86246D94CA00FC8D6F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F85246D94CA00FC8D6F /* GradientView.swift */; };
+		84194F88246EE0AA00FC8D6F /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F87246EE0AA00FC8D6F /* WaitingChatCell.swift */; };
+		84194F8A246EE1E300FC8D6F /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */; };
 		8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */; };
 		8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF11244DF68100EB57C3 /* AddPhotoView.swift */; };
 		8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */; };
@@ -41,6 +43,8 @@
 		84194F80246AF48500FC8D6F /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waitingChats.json; path = "../../../../../Downloads/Telegram Desktop/15. урок/IChat/Extensions/UIKIt/waitingChats.json"; sourceTree = "<group>"; };
 		84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
 		84194F85246D94CA00FC8D6F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		84194F87246EE0AA00FC8D6F /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
+		84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		8421CF11244DF68100EB57C3 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
@@ -81,8 +85,17 @@
 			isa = PBXGroup;
 			children = (
 				84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */,
+				84194F87246EE0AA00FC8D6F /* WaitingChatCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		84194F8B246EE22C00FC8D6F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		849129E4243E0DE3007EB251 /* UIKit */ = {
@@ -137,6 +150,7 @@
 				849DBE06243B802D000DF7A6 /* SceneDelegate.swift */,
 				84E2D2C5245094AF00FE0A06 /* Controllers */,
 				84E2D2C2245093AC00FE0A06 /* SignIn&Auth */,
+				84194F8B246EE22C00FC8D6F /* Protocols */,
 				849129E5243E0DF3007EB251 /* Extensions */,
 				849DBE0D243B8033000DF7A6 /* Assets.xcassets */,
 				849DBE0F243B8033000DF7A6 /* LaunchScreen.storyboard */,
@@ -159,10 +173,10 @@
 		84E2D2C5245094AF00FE0A06 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				84194F82246C3B9E00FC8D6F /* Cell */,
 				84E2D2C32450941C00FE0A06 /* MainTabBarController.swift */,
 				84E2D2C6245094D000FE0A06 /* ListViewController.swift */,
 				84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */,
+				84194F82246C3B9E00FC8D6F /* Cell */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +270,8 @@
 				8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */,
 				849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */,
 				849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */,
+				84194F8A246EE1E300FC8D6F /* SelfConfiguringCell.swift in Sources */,
+				84194F88246EE0AA00FC8D6F /* WaitingChatCell.swift in Sources */,
 				849DBE19243CCD4E000DF7A6 /* UIButton + Extension.swift in Sources */,
 				84E2D2C7245094D000FE0A06 /* ListViewController.swift in Sources */,
 				84626D042444B4C000EE6169 /* LoginViewController.swift in Sources */,
