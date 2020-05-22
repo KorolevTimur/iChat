@@ -15,6 +15,9 @@
 		84194F88246EE0AA00FC8D6F /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F87246EE0AA00FC8D6F /* WaitingChatCell.swift */; };
 		84194F8A246EE1E300FC8D6F /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */; };
 		84194F8D2472D55F00FC8D6F /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F8C2472D55F00FC8D6F /* SectionHeader.swift */; };
+		84194F93247820F900FC8D6F /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 84194F92247820F800FC8D6F /* users.json */; };
+		84194F95247821BC00FC8D6F /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F94247821BC00FC8D6F /* MUser.swift */; };
+		84194F97247821CB00FC8D6F /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194F96247821CB00FC8D6F /* MChat.swift */; };
 		8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */; };
 		8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF11244DF68100EB57C3 /* AddPhotoView.swift */; };
 		8421CF14244F447700EB57C3 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */; };
@@ -40,13 +43,16 @@
 
 /* Begin PBXFileReference section */
 		84194F78246AEECD00FC8D6F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		84194F7E246AF46E00FC8D6F /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = activeChats.json; path = "../../../../../Downloads/Telegram Desktop/15. урок/IChat/Extensions/UIKIt/activeChats.json"; sourceTree = "<group>"; };
-		84194F80246AF48500FC8D6F /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waitingChats.json; path = "../../../../../Downloads/Telegram Desktop/15. урок/IChat/Extensions/UIKIt/waitingChats.json"; sourceTree = "<group>"; };
+		84194F7E246AF46E00FC8D6F /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activeChats.json; sourceTree = "<group>"; };
+		84194F80246AF48500FC8D6F /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waitingChats.json; sourceTree = "<group>"; };
 		84194F83246C3BB900FC8D6F /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
 		84194F85246D94CA00FC8D6F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		84194F87246EE0AA00FC8D6F /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
 		84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		84194F8C2472D55F00FC8D6F /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		84194F92247820F800FC8D6F /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = "../../../Downloads/Telegram Desktop/20. урок/IChat/users.json"; sourceTree = "<group>"; };
+		84194F94247821BC00FC8D6F /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		84194F96247821CB00FC8D6F /* MChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
 		8421CF0F244DF30600EB57C3 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		8421CF11244DF68100EB57C3 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		8421CF13244F447700EB57C3 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
@@ -100,6 +106,23 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		84194F8E2478200B00FC8D6F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				84194F8C2472D55F00FC8D6F /* SectionHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		84194F982478226C00FC8D6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84194F94247821BC00FC8D6F /* MUser.swift */,
+				84194F96247821CB00FC8D6F /* MChat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		849129E4243E0DE3007EB251 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +133,6 @@
 				84DAE244243CD7E4008A30B1 /* UIImageView + Extension.swift */,
 				849DBE1A243CD145000DF7A6 /* UIFont + Extension.swift */,
 				849DBE18243CCD4E000DF7A6 /* UIButton + Extension.swift */,
-				84194F7E246AF46E00FC8D6F /* activeChats.json */,
-				84194F80246AF48500FC8D6F /* waitingChats.json */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -150,11 +171,15 @@
 			children = (
 				849DBE04243B802D000DF7A6 /* AppDelegate.swift */,
 				849DBE06243B802D000DF7A6 /* SceneDelegate.swift */,
+				84194F982478226C00FC8D6F /* Models */,
 				84E2D2C5245094AF00FE0A06 /* Controllers */,
 				84E2D2C2245093AC00FE0A06 /* SignIn&Auth */,
 				84194F8B246EE22C00FC8D6F /* Protocols */,
 				849129E5243E0DF3007EB251 /* Extensions */,
 				849DBE0D243B8033000DF7A6 /* Assets.xcassets */,
+				84194F7E246AF46E00FC8D6F /* activeChats.json */,
+				84194F80246AF48500FC8D6F /* waitingChats.json */,
+				84194F92247820F800FC8D6F /* users.json */,
 				849DBE0F243B8033000DF7A6 /* LaunchScreen.storyboard */,
 				849DBE12243B8033000DF7A6 /* Info.plist */,
 			);
@@ -177,9 +202,9 @@
 			children = (
 				84E2D2C32450941C00FE0A06 /* MainTabBarController.swift */,
 				84E2D2C6245094D000FE0A06 /* ListViewController.swift */,
-				84194F8C2472D55F00FC8D6F /* SectionHeader.swift */,
 				84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */,
 				84194F82246C3B9E00FC8D6F /* Cell */,
+				84194F8E2478200B00FC8D6F /* Header */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -242,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84194F93247820F900FC8D6F /* users.json in Resources */,
 				849DBE11243B8033000DF7A6 /* LaunchScreen.storyboard in Resources */,
 				84194F7F246AF46E00FC8D6F /* activeChats.json in Resources */,
 				849DBE0E243B8033000DF7A6 /* Assets.xcassets in Resources */,
@@ -256,12 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84194F97247821CB00FC8D6F /* MChat.swift in Sources */,
 				849129ED2440C4A4007EB251 /* OneLineTextField.swift in Sources */,
 				849129EB2440C053007EB251 /* SignUpViewController.swift in Sources */,
 				84194F8D2472D55F00FC8D6F /* SectionHeader.swift in Sources */,
 				84194F86246D94CA00FC8D6F /* GradientView.swift in Sources */,
 				849DBE1B243CD145000DF7A6 /* UIFont + Extension.swift in Sources */,
 				849DBE09243B802D000DF7A6 /* AuthViewController.swift in Sources */,
+				84194F95247821BC00FC8D6F /* MUser.swift in Sources */,
 				84194F84246C3BB900FC8D6F /* ActiveChatCell.swift in Sources */,
 				8421CF10244DF30600EB57C3 /* SetupProfileViewController.swift in Sources */,
 				84E2D2C9245096AC00FE0A06 /* PeopleViewController.swift in Sources */,
