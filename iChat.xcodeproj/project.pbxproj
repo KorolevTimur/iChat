@@ -27,6 +27,7 @@
 		84889CB62485488200042F58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84889CB52485488200042F58 /* ProfileViewController.swift */; };
 		84889CB82486BFD200042F58 /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84889CB72486BFD200042F58 /* InsertableTextField.swift */; };
 		84889CBA2486C66A00042F58 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84889CB92486C66A00042F58 /* UIView + Extension.swift */; };
+		84889CBC2487EBB100042F58 /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84889CBB2487EBB100042F58 /* ChatRequestViewController.swift */; };
 		849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E6243E12D0007EB251 /* ButtonFormView.swift */; };
 		849129E9243E18E9007EB251 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129E8243E18E9007EB251 /* StackView + Extension.swift */; };
 		849129EB2440C053007EB251 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849129EA2440C053007EB251 /* SignUpViewController.swift */; };
@@ -67,6 +68,7 @@
 		84889CB52485488200042F58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		84889CB72486BFD200042F58 /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
 		84889CB92486C66A00042F58 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		84889CBB2487EBB100042F58 /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
 		849129E6243E12D0007EB251 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		849129E8243E18E9007EB251 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		849129EA2440C053007EB251 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				84E2D2C6245094D000FE0A06 /* ListViewController.swift */,
 				84E2D2C8245096AC00FE0A06 /* PeopleViewController.swift */,
 				84889CB52485488200042F58 /* ProfileViewController.swift */,
+				84889CBB2487EBB100042F58 /* ChatRequestViewController.swift */,
 				84194F82246C3B9E00FC8D6F /* Cell */,
 				84194F8E2478200B00FC8D6F /* Header */,
 			);
@@ -312,6 +315,7 @@
 				849DBE1F243CD559000DF7A6 /* UILabel + Extension.swift in Sources */,
 				84889CB62485488200042F58 /* ProfileViewController.swift in Sources */,
 				84194F79246AEECD00FC8D6F /* Bundle-Decodable.swift in Sources */,
+				84889CBC2487EBB100042F58 /* ChatRequestViewController.swift in Sources */,
 				849129E7243E12D0007EB251 /* ButtonFormView.swift in Sources */,
 				8421CF12244DF68100EB57C3 /* AddPhotoView.swift in Sources */,
 				849DBE05243B802D000DF7A6 /* AppDelegate.swift in Sources */,
