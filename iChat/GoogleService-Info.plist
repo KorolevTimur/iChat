@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>964919145345-c9jiopp39qqq91u2c3rdd0o23jmg2aro.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.964919145345-c9jiopp39qqq91u2c3rdd0o23jmg2aro</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAReumi6o2hUlOjmDOfZG1ExE3wK-luzZo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>964919145345</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.swiftbook.iChat</string>
+	<key>PROJECT_ID</key>
+	<string>ichat-6ddc3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ichat-6ddc3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:964919145345:ios:851c7546138fbdef7e6e80</string>
+	<key>DATABASE_URL</key>
+	<string>https://ichat-6ddc3.firebaseio.com</string>
+</dict>
+</plist>
