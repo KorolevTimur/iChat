@@ -6,11 +6,6 @@
 //  Copyright © 2020 Timur Korolev. All rights reserved.
 //
 
-protocol AuthNavigatingDelegate: class {
-    func toLoginVC()
-    func toSignUpVC()
-}
-
 import UIKit
 
 class LoginViewController: UIViewController {

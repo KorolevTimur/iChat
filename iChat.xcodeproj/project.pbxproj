@@ -26,6 +26,7 @@
 		84640084248FD0740074216C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84640083248FD0740074216C /* AuthService.swift */; };
 		846400862491202C0074216C /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846400852491202C0074216C /* Validators.swift */; };
 		84640088249123EA0074216C /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84640087249123EA0074216C /* AuthError.swift */; };
+		8464008B2493D0AF0074216C /* AuthNavigatingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464008A2493D0AF0074216C /* AuthNavigatingDelegate.swift */; };
 		84704EB6247D66AA0091EC77 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84704EB5247D66AA0091EC77 /* UserCell.swift */; };
 		84704EB8247D69540091EC77 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84704EB7247D69540091EC77 /* UIViewController + Extension.swift */; };
 		84889CB62485488200042F58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84889CB52485488200042F58 /* ProfileViewController.swift */; };
@@ -73,6 +74,7 @@
 		84640083248FD0740074216C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		846400852491202C0074216C /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
 		84640087249123EA0074216C /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		8464008A2493D0AF0074216C /* AuthNavigatingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigatingDelegate.swift; sourceTree = "<group>"; };
 		84704EB5247D66AA0091EC77 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		84704EB7247D69540091EC77 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		84889CB52485488200042F58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				84194F89246EE1E300FC8D6F /* SelfConfiguringCell.swift */,
+				8464008A2493D0AF0074216C /* AuthNavigatingDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				849DBE1D243CD298000DF7A6 /* UIColor + Extension.swift in Sources */,
 				849DBE07243B802D000DF7A6 /* SceneDelegate.swift in Sources */,
 				84704EB6247D66AA0091EC77 /* UserCell.swift in Sources */,
+				8464008B2493D0AF0074216C /* AuthNavigatingDelegate.swift in Sources */,
 				84704EB8247D69540091EC77 /* UIViewController + Extension.swift in Sources */,
 				84194F8A246EE1E300FC8D6F /* SelfConfiguringCell.swift in Sources */,
 				84194F88246EE0AA00FC8D6F /* WaitingChatCell.swift in Sources */,
