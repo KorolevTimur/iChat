@@ -59,7 +59,7 @@ class LoginViewController: UIViewController {
                                         
                                     case .success(let user):
                                         self.showAlert(with: "Succes", and: "You authorized") {
-                                            self.present(SetupProfileViewController(), animated: true, completion: nil)
+                                            self.present(SetupProfileViewController(currentUser: user), animated: true, completion: nil)
                                         }
                                     case .failure(let error):
                                         self.showAlert(with: "Error", and: error.localizedDescription)
